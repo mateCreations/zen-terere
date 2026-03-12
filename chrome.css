@@ -3,6 +3,13 @@
  * https://github.com/mateCreations/zen-terere
  */
 
+:root,
+#main-window,
+#navigator-toolbox,
+#titlebar {
+  color-scheme: light !important;
+}
+
 :root {
   /* Backgrounds */
   --zen-main-browser-background: #fbf1c7 !important;
@@ -11,9 +18,21 @@
   --arrowpanel-background: #ebdfb0 !important;
   --arrowpanel-border-color: #928374 !important;
 
+  /* Zen color system */
+  --zen-colors-primary: #fbf1c7 !important;
+  --zen-colors-secondary: #ebdfb0 !important;
+  --zen-colors-tertiary: #d5c4a1 !important;
+  --zen-dialog-background: #ebdfb0 !important;
+  --zen-branding-bg-reverse: #fbf1c7 !important;
+
   /* Text */
   --toolbar-color: #3c3836 !important;
   --lwt-text-color: #3c3836 !important;
+  --lwt-tab-text: #3c3836 !important;
+  --tab-text: #3c3836 !important;
+  --zen-tab-text-color: #3c3836 !important;
+  --sidebar-text-color: #3c3836 !important;
+  --panel-color: #3c3836 !important;
 
   /* Accent */
   --zen-primary-color: #b57614 !important;
@@ -23,6 +42,11 @@
 
   /* Sidebar */
   --zen-sidebar-background-color: #fbf1c7 !important;
+  --zen-nav-panel-background: #fbf1c7 !important;
+  --zen-apz-background: #fbf1c7 !important;
+  --sidebar-background-color: #fbf1c7 !important;
+  --lwt-sidebar-background-color: #fbf1c7 !important;
+  --lwt-sidebar-text-color: #3c3836 !important;
 
   /* Borders */
   --zen-colors-border: #928374 !important;
@@ -38,4 +62,103 @@
   --toolbar-field-focus-background-color: #ebdfb0 !important;
   --toolbar-field-focus-color: #3c3836 !important;
   --toolbar-field-focus-border-color: #b57614 !important;
+}
+
+/* URL bar */
+#urlbar,
+#urlbar-background,
+.urlbar-background,
+#urlbar-container,
+#urlbar-input-container,
+.urlbar-input-container,
+#zen-urlbar,
+#zen-urlbar-container,
+.urlbar-input-box {
+  background-color: #ebdfb0 !important;
+  color: #3c3836 !important;
+  border-color: #928374 !important;
+  outline: none !important;
+}
+
+#urlbar[focused] > #urlbar-background {
+  border-color: #b57614 !important;
+  box-shadow: none !important;
+}
+
+/* Search results dropdown */
+.urlbarView,
+.urlbarView-body-inner,
+.urlbarView-results {
+  background-color: #ebdfb0 !important;
+  color: #3c3836 !important;
+}
+
+.urlbarView-row:hover,
+.urlbarView-row[selected] {
+  background-color: #d5c4a1 !important;
+}
+
+.urlbarView-row-inner,
+.urlbarView-title,
+.urlbarView-secondary,
+.urlbarView-action,
+.urlbarView-tags,
+.urlbarView-type-icon,
+.search-panel-one-offs-header,
+.urlbar-input {
+  color: #3c3836 !important;
+}
+
+.urlbarView-url {
+  color: #076678 !important;
+}
+
+/* Search/command modal */
+#zen-dialog,
+.zen-dialog,
+panel.autocomplete-richlistbox-popup,
+#PopupAutoComplete,
+#PopupAutoCompleteRichResult,
+.panel-arrowcontent {
+  background-color: #ebdfb0 !important;
+  color: #3c3836 !important;
+  border-color: #928374 !important;
+}
+
+/* Sidebar elements — direct targeting */
+#navigator-toolbox,
+#TabsToolbar,
+#titlebar,
+#zen-sidebar-top-buttons,
+#zen-apz-wrapper,
+#zen-sidebar-icons-wrapper,
+#zen-browser-action-bar,
+#tabbrowser-tabs,
+#sidebar-box,
+.zen-sidebar,
+#zen-workspaces-button,
+#zen-tabs-wrapper {
+  background-color: #fbf1c7 !important;
+  color: #3c3836 !important;
+}
+
+/* Sidebar text */
+#titlebar *,
+#tabbrowser-tabs *,
+#zen-tabs-wrapper *,
+#zen-sidebar-icons-wrapper *,
+#zen-browser-action-bar *,
+label.tab-text.tab-label,
+.tab-label,
+.tab-text,
+.tabbrowser-tab,
+.tab-content,
+.zen-tab-label,
+.zen-workspace-name,
+#zen-workspaces-button label,
+.toolbarbutton-text,
+.sidebar-placesTreechildren,
+#sidebar-search-label {
+  color: #3c3836 !important;
+  fill: #3c3836 !important;
 }
