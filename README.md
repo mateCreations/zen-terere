@@ -1,7 +1,7 @@
 # Tererê for Zen Browser
 
 <p align="center">
-  <img width="120" src="https://raw.githubusercontent.com/mateCreations/zen-terere/master/images/logo.jpg" alt="Mate" />
+  <img width="120" src="https://raw.githubusercontent.com/mateCreations/zen-terere/master/images/logo.png" alt="Mate" />
 </p>
 
 Light theme inspired by tererê — buttery cream paper, amber gold, and deep teal.
