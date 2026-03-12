@@ -1,0 +1,41 @@
+/* Tererê — Light theme for Zen Browser
+ * Palette: Creme Amanteigado · Âmbar Dourado · Azul Petróleo
+ * https://github.com/mateCreations/zen-terere
+ */
+
+:root {
+  /* Backgrounds */
+  --zen-main-browser-background: #fbf1c7 !important;
+  --toolbar-bgcolor: #fbf1c7 !important;
+  --tabpanel-background-color: #fbf1c7 !important;
+  --arrowpanel-background: #ebdfb0 !important;
+  --arrowpanel-border-color: #928374 !important;
+
+  /* Text */
+  --toolbar-color: #3c3836 !important;
+  --lwt-text-color: #3c3836 !important;
+
+  /* Accent */
+  --zen-primary-color: #b57614 !important;
+  --lwt-accent-color: #fbf1c7 !important;
+  --tab-selected-bgcolor: #ebdfb0 !important;
+  --tab-loading-fill: #b57614 !important;
+
+  /* Sidebar */
+  --zen-sidebar-background-color: #fbf1c7 !important;
+
+  /* Borders */
+  --zen-colors-border: #928374 !important;
+
+  /* Selection */
+  --lwt-toolbar-field-highlight: #b57614 !important;
+  --lwt-toolbar-field-highlight-text: #fbf1c7 !important;
+
+  /* URL bar */
+  --toolbar-field-background-color: #ebdfb0 !important;
+  --toolbar-field-color: #3c3836 !important;
+  --toolbar-field-border-color: #928374 !important;
+  --toolbar-field-focus-background-color: #ebdfb0 !important;
+  --toolbar-field-focus-color: #3c3836 !important;
+  --toolbar-field-focus-border-color: #b57614 !important;
+}
